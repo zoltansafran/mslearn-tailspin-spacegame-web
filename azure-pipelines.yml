@@ -1,4 +1,8 @@
 trigger:
+- task: VisualStudioTestPlatformInstaller@1
+  inputs:
+    packageFeedSelector: 'nugetOrg'
+    versionSelector: 'latestStable'
 - '*'
 
 pool:
